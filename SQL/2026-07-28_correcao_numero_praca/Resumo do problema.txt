@@ -1,0 +1,9 @@
+# Correção de numeração de praça — 28/07/2026
+
+Resolve inconsistência onde "praça 3" (praça única) aparecia sem uma
+"praça 1" correspondente para o mesmo Processo/Lote, violando a regra
+de negócio de que toda 2ª praça deve ter uma 1ª praça anterior.
+
+Ordem de execução: 01 → 02 (documenta erro) → 03 → 04 → 05 → 06 → 07
+
+Ver diário de bordo, Dia 9, para o raciocínio completo.
